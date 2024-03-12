@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def quadratic_func(w):
-    return np.dot(w, w)
+    return np.dot(w.T, w)
 
 dimention = np.arange(1, 101)
 min_val_P100 = []
